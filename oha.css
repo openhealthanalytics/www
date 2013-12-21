@@ -1,0 +1,72 @@
+body {
+	color: #393434;
+	font-family: "Avenir", "Arial", "sans";
+}
+
+a:link    {color: #393434;}
+a:visited {color: #393434;}
+a:active  {color: #393434;}
+a:hover   {color: #000000; text-decoration: underline; }
+a         {text-decoration: none}
+
+
+#header {
+	vertical-align: middle;
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	background: #ffffff;
+}
+
+#contact {
+	display: table-cell;
+	width: 200px;
+	height: 27px;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 22px;
+}
+
+#topline {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	position: fixed;
+	padding-top: 77px;
+}
+
+#botline {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+#banners {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	padding-top: 82px;
+}
+
+#content {
+	width: 100%;
+	border: 0px;
+	padding: 20px;
+}
+
+.content-column {
+	width: 33%;
+	font-size: 120%;
+	border: 0px;
+	text-align: left;
+	vertical-align: top;
+	padding: 20px;
+}
+
+#footer {
+	text-align: center;
+}
