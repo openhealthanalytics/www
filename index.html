@@ -1,55 +1,184 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <title>Open Health Analytics</title>
 
-<!-- Google Analytics Code -->
-<script src="ga.js" language="javascript" type="text/javascript"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Home page for Open Health Analytics">
+    <meta name="author" content="Paul Boal">
+    <link rel="shortcut icon" href="/favicon.ico">
 
-<!-- Rotating Banner Code -->
-<script src="banners.js" language="javascript" type="text/javascript"></script>
+    <title>Open Health Analytics</title>
 
-<!-- HOAP CSS -->
-<link rel="stylesheet" type="text/css" href="oha.css">
+    <!-- Bootstrap core CSS -->
+    <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
 
-</head>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<body style="background:#ffffff; padding:0px; border:0px; margin:0px;">
-	<div id="topline">
-		<img style="width:100%; border:none; height:5px;" src="lines/horizontal-01.png"/>
-	</div>
-	<div id="header" style="width:100%; height:77px; padding:0px; margin:0px; border:0px;">
-		<img style="border:none; float:left;" src="headers/header-01.png"/>
-		<div id="contact" style=" margin:0px; border:0px; float:right;">
-			<a href="contact.html">Contact Us</a>
-		</div>
-	</div>
-	<div id="banners">
-		<img style="width:100%; border:none;" src="banners/banner_master-01.png" id="banner" alt="Open Health Analytics" />
-	</div>
-	<div id="botline">
-		<img style="width:100%; border:none; height:5px;" src="lines/horizontal-02.png"/>
-	</div>
+    <!-- Custom styles for this template -->
+    <link href="custom.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
 
-	<table id="content"><tr>
-	<td class="content-column">
-		<p style="align:center; font-weight: bold;">Manage Your Data</p>
-		<p>The healthcare delivery process creates a lot of data: from patient registration to orders to treatments to device monitoring to supply chain details to patient accounting.  We know that great potential insight can be found in the analysis of the data, and the first challenge is keeping track of all the data you have.</p>
-		<p>Open Health Analytics is building the Healthcare Open Analytics Platform (HOAP) to help make that management of data easier, and to help the healthcare industry deliver more value from its data.
-	</td>
-	<td class="content-column">
-		<p style="align:center; font-weight:bold;">Collaborate With Others</p>
-		<p>The challenges of healthcare aren't things that we can solve alone.  Healtchare solutions are multi-disciplinary, and they need to be openly shared in order to improve the industry as a whole.  The solutions we develop together should be open and available to everyone who wants to improve healthcare.</p>
-		<p>HOAP allows healthcare providers to maintain tight control and audits around who can access what information, and also allows data to be shared as easily as a spreadsheet.</p>
-	</td>
-	<td class="content-column">
-		<p style="align:center; font-weight:bold;">Solve Healthcare Challenges</p>
-		<p>Solving the challenges we face in health care requires new ways of thinking and an increasingly sophisticated understanding of data analysis.  It also requires a clear line of sight between clinical care processes, the data, analytics, and the improvement of clinical operations.</p>
-		<p>HOAP is an open platform, designed to be extended by healthcare systems and analytics vendors, and built to be integrated with clinical operations and electronic health record systems.</p>
-	</td>
-	</tr></table>
-	<div id="footer">
-		&copy; 2013, Open Health Analytics
-	</div>
-</body>
+        <div class="navbar navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <img src="/headers/header-01.png" alt="Open Health Analytics" style="height:50px"/>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="/banners/banner_master-01.png" alt="Open Health Analytics">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/banners/banner_master-02.png" alt="Manage Your Data">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/banners/banner_master-03.png" alt="Collaborate with Others">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/banners/banner_master-04.png" alt="Solve Healthcare Challenges">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <h3>We help hospitals and healthcare delivery systems...</h3>
+          <p><a class="btn btn-default" href="#who" role="button">Read more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h3>through software solutions that enable their own insights...</h3>
+          <p><a class="btn btn-default" href="#what" role="button">Read more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h3>to optimize patient outcomes and reduce waste.</h3>
+          <p><a class="btn btn-default" href="#why" role="button">Read more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"><a name="who">Our customers</a> <span class="text-muted">are innovative healthcare providers.</span></h2>
+          <p class="lead">Innovative hospitals and delivery systems are approaching the chaotic world of changes in healthcare as an opportunity to excel and deliver better outcomes at lower costs.  They thrive among regulatory change, price pressures, patient expectations, smarter technology, and improvements in medical best practices.  The customers at Open Health Analytics are the providers who don't settle for the status quo.  They want to achieve more and change what it looks like to be a great healthcare provider.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="/images/innovators.jpg" style="height: 400px" alt="Innovative Providers">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="/images/confused.jpg" style="height: 400px" alt="Everyone Seems to Have Solutions">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading"><a name="what">Healthcare.</a> <span class="text-muted">Smarter.</span></h2>
+          <p class="lead">At Open Health Analytics, we believe that the best improvements to the healthcare industry come from the people who are actually delivering care to patients.  In contrast, it's the government establishing new regulations, insurance companies setting reimbursement models, supply chain companies evaluating purchasing patterns, and consultants optimizing isolated processes without fully understanding the broader impacts to the provider's organization.  Open Health Analytics is developing software that turns this model around, and uses some of the most sophisticated technologies available to deliver provider-managed and provider-guided data mining, analytical, and decision support tools.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"><a class="text-muted" name="why">Let's make</a> healthcare great!</h2>
+          <p class="lead">Delivering great care to patients requires years of medical training, continuing education, and a committment to the patient from care givers.  Delivering healthcare services requires that same level of analytical and business accumen from the greatest hospitals and healthcare organizations.  Healthcare providers need solutions that empower them to easily manage and explore their crucial operational data.  They need to be able to share data and insights with others across the organization so that clinical quality, revenue, finance, contracting, and each service line.  They need to be able to leverage simple tools that were built for practical day-to-day use; not complex, strictly defined tools that are built by people who aren't delivering care every day.  Open Health Analytics is building these kinds of tools with big data technology in a solution called HOAP (Healthcare's Open Analytics Platform).</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="/images/provider.jpg" style="height: 400px" alt="Providers make healthcare great">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Open Health Analytics &middot; <a href="mailto:info@OpenHealthAnalytics.com">info@openhealthanalytics.com</a> &middot; 314-467-0817 </p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
+
